@@ -308,7 +308,7 @@ And one last thing:
 
 ### Preload fonts
 
-Fonts only start downloading once the browser finds something on the page that needs them. This is effient in some ways, as it avoids loading fonts it doesn't need. However, that also means they can start downloading pretty late.
+Fonts only start downloading once the browser finds something on the page that needs them. This is efficient in some ways, as it avoids loading fonts it doesn't need. However, that also means they can start downloading pretty late.
 
 If you're _sure_ particular fonts are needed on the page, preload them to get the download starting earlier:
 
@@ -416,7 +416,7 @@ The HTML is 213kB, which is pretty big given the content. HTML downloads with re
 </svg>
 </figure>
 
-The darker areas of the response in the waterfall represents bytes being received, and as you can see the HTML downloads entirely before other resources start downloading.
+The darker areas of the response in the waterfall represent bytes being received, and as you can see the HTML downloads entirely before other resources start downloading.
 
 I took a look at the source it's littered with large inline SVG, which could be optimised:
 
@@ -611,7 +611,7 @@ I wrote a [hacky script to automate some of this](https://github.com/jakearchiba
 
 # And that's it for now!
 
-I'm not sure how may parts this series will be. It probably depends on how much there is to write about each site. The next part is definitely just about one team, because there's some very interesting JavaScript stuff going on…
+I'm not sure how many parts this article will be. It probably depends on how much there is to write about each site.
 
 <script type="component">{
   "module": "shared/demos/2021/f1-perf/Parts",
